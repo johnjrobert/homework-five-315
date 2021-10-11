@@ -1,0 +1,84 @@
+nav {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  display: none;
+}
+
+.navBar {
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  // text-decoration: none;
+  align-items: center;
+
+  .logo {
+    height: 55px;
+    width: 168px;
+    // background-color: red;
+    background-image: url(../../assests/images/logo.svg);
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .navOptions {
+    text-decoration: none;
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+    // background-color: red;
+    margin-right: 80px;
+
+    .textBox {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 25px;
+      align-items: center;
+
+      .navButton {
+        width: 158px;
+        height: 52px;
+        background-color: #ffd972;
+        border-radius: 50px;
+        text-decoration: none;
+        color: black;
+        font-family: cav-reg;
+        font-size: 25px;
+        border: none;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-family: cav-reg;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    display: block;
+  }
+
+  .navButton {
+    display: none;
+  }
+
+  a {
+    display: none;
+  }
+}
