@@ -68,7 +68,7 @@ nav {
 .navBar .logo {
   height: 55px;
   width: 168px;
-  background-image: url(../../assests/images/logo.svg);
+  background-image: url(../assests/images/logo.svg);
   margin-left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
